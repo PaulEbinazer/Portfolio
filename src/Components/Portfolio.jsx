@@ -11,26 +11,43 @@ const Portfolio = () => {
     {
       id: 1,
       src: bmi,
+      codehref:"https://github.com/PaulEbinazer/bmicalculator",
+      demohref:"https://kebibmicalculat.netlify.app/"
     },
     {
       id: 2,
       src: currencyconvertor,
+      codehref:"https://github.com/PaulEbinazer/currencyconverter",
+      demohref:"https://kebicurrencyconvertor.netlify.app/"
+      
+
     },
     {
       id: 3,
       src: passwordgenerator,
+      codehref:"https://github.com/PaulEbinazer/passwordgenerator",
+      demohref:"https://kebitodoapp.netlify.app/"
+      
     },
     {
       id: 4,
       src: todo,
+      codehref:"https://github.com/PaulEbinazer/Todo-app",
+      demohref:"https://kebitodoapp.netlify.app/"
     },
     {
       id: 5,
       src: reactWeather,
+      codehref:"https://github.com/PaulEbinazer/weatherapp.reactjs",
+      demohref:"https://kebitodoapp.netlify.app/"
+      
     },
     {
       id: 6,
       src: reactSmooth,
+      codehref:"",
+      demohref:"https://kebitodoapp.netlify.app/"
+      
     },
   ];
   return (
@@ -51,18 +68,25 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
 
             {
-                portfolios.map(({id,src})=>( <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                portfolios.map(({id,src,demohref,codehref})=>( <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
             <img
               src={src}
               alt=""
               className="rounded-md duration-200 hover:scale-105"
             />
             <div className="flex items-center justify-center">
-              <button className="w-1/2 py-3 m-4 duration-200 hover:scale-105">
-                Demo
-              </button>
-              <button className="w-1/2 py-3 m-4 duration-200 hover:scale-105">
-                Code
+            <button className="w-1/2 py-3 m-4 duration-200 border border-transparent hover:scale-105 hover:border-blue-500">
+  <a href={demohref} target="_blank" rel="noopener noreferrer">
+    Demo
+  </a>
+</button>
+
+
+              <button className="w-1/2 py-3 m-4 duration-200 border border-transparent hover:scale-105 hover:border-blue-500">
+              <a href={codehref}
+                target="_blank"
+                rel="noopener noreferrer"
+                >Code</a>
               </button>
             </div>
           </div>))
