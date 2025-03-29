@@ -1,8 +1,8 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import bmi from "../assets/portfolio/bmi.jpeg";
+import currencyconvertor from "../assets/portfolio/currencyconvertor.jpeg";
+import passwordgenerator from "../assets/portfolio/passwordgenerator.jpeg";
+import todo from "../assets/portfolio/todo.jpeg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 
@@ -10,19 +10,19 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: bmi,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: currencyconvertor,
     },
     {
       id: 3,
-      src: navbar,
+      src: passwordgenerator,
     },
     {
       id: 4,
-      src: installNode,
+      src: todo,
     },
     {
       id: 5,
@@ -44,7 +44,7 @@ const Portfolio = () => {
             Portfolio
           </p>
           <p className="py-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, qui.
+          "Showcasing my projects in frontend development, highlighting responsive designs and seamless user experiences."
           </p>
         </div>
 

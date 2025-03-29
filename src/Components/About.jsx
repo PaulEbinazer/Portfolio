@@ -13,16 +13,20 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-          accusantium ipsam, veritatis dolorem fuga beatae autem, mollitia
-          maxime eveniet suscipit officia ea recusandae quos inventore, eos
-          dolore nobis similique sapiente.
+        "I'm a Frontend Developer passionate about building responsive and interactive web applications. I enjoy crafting seamless user experiences with modern technologies like HTML, CSS, JavaScript, and React. My focus is on writing clean, efficient code and optimizing performance. I love solving problems and continuously learning new tools to enhance my skills. My goal is to create visually appealing and user-friendly digital experiences."
         </p>
         <br />
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-          aliquid velit nostrum sed ut nisi, facere soluta asperiores impedit
-          saepe culpa corporis sunt, quae ipsum.
+        "Creative Frontend Developer focused on building visually appealing and highly functional web interfaces. Passionate about delivering smooth and engaging user experiences."
+
+
+
+
+
+
+
+
+
         </p>
       </div>
     </div>

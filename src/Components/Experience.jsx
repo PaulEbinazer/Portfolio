@@ -4,8 +4,8 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import sql from "../assets/sql.png";
+import python from "../assets/python.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -43,14 +43,14 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "NEXTJS",
+      src: sql,
+      title: "SQL",
       style: "shadow-white",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GRAPHQL",
+      src: python ,
+      title: "PYTHON",
       style: "shadow-pink-400",
     },
     {
@@ -72,8 +72,7 @@ const Experience = () => {
             Experience
           </p>
           <p className="py-6">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-            alias incidunt vero!
+          "Experienced in building responsive and interactive web applications using modern frontend technologies."
           </p>
         </div>
 

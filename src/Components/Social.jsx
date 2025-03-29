@@ -12,7 +12,7 @@ const Social = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "www.linkedin.com/in/paulebinazer",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const Social = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/PaulEbinazer",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const Social = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:paulebinezer21@gmail.com",
     },
     {
       id: 4,
